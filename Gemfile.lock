@@ -105,19 +105,19 @@ GEM
       wmi-lite (~> 1.0)
     parser (2.3.1.2)
       ast (~> 2.2)
-    passenger (5.0.28)
+    passenger (5.1.0)
       rack
       rake (>= 0.8.1)
     plist (3.2.0)
     powerpack (0.1.1)
     proxifier (1.0.3)
-    rack (1.6.4)
+    rack (1.6.13)
     rack-protection (1.5.3)
       rack
     rack-test (0.6.3)
       rack (>= 1.0)
     rainbow (2.1.0)
-    rake (11.2.2)
+    rake (13.0.3)
     retryable (2.0.3)
     ridley (4.5.1)
       addressable
@@ -204,7 +204,7 @@ PLATFORMS
 DEPENDENCIES
   chef (~> 12.11)
   chef-zero
-  passenger (~> 5.0)
+  passenger (~> 5.1)
   ridley
   rubocop
   sinatra (~> 1.4)
